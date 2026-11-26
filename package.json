@@ -1,0 +1,64 @@
+{
+	"name": "n8n-nodes-gmicloud",
+	"version": "0.1.0",
+	"description": "n8n community nodes for GMI Cloud: chat completions, model listing, and a LangChain-compatible chat model for AI Agent workflows.",
+	"license": "MIT",
+	"homepage": "https://github.com/himanshu748/n8n-nodes-gmicloud",
+	"keywords": [
+		"n8n-community-node-package",
+		"n8n",
+		"gmi-cloud",
+		"gmicloud",
+		"GMI Cloud",
+		"langchain",
+		"openai-compatible"
+	],
+	"author": {
+		"name": "Himanshu Kumar",
+		"email": "jhahimanshu653@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/himanshu748/n8n-nodes-gmicloud.git"
+	},
+	"scripts": {
+		"build": "n8n-node build",
+		"build:watch": "tsc --watch",
+		"dev": "n8n-node dev",
+		"lint": "n8n-node lint",
+		"lint:fix": "n8n-node lint --fix",
+		"test": "node --import tsx --test test/**/*.test.mjs",
+		"test:e2e": "node test/e2e/run.mjs",
+		"release": "n8n-node release",
+		"prepublishOnly": "n8n-node prerelease"
+	},
+	"files": [
+		"dist"
+	],
+	"n8n": {
+		"n8nNodesApiVersion": 1,
+		"aiNodeSdkVersion": 1,
+		"strict": true,
+		"credentials": [
+			"dist/credentials/GmiCloudApi.credentials.js"
+		],
+		"nodes": [
+			"dist/nodes/GmiCloud/GmiCloud.node.js",
+			"dist/nodes/LmChatGmiCloud/LmChatGmiCloud.node.js"
+		]
+	},
+	"devDependencies": {
+		"@n8n/node-cli": "*",
+		"@types/node": "^24.19.4",
+		"eslint": "9.32.0",
+		"playwright-core": "^1.65.1",
+		"prettier": "3.6.2",
+		"release-it": "^21.1.0",
+		"tsx": "^4.23.15",
+		"typescript": "5.9.2"
+	},
+	"peerDependencies": {
+		"@n8n/ai-node-sdk": "*",
+		"n8n-workflow": "*"
+	}
+}
