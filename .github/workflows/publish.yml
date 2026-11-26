@@ -97,3 +97,5 @@ jobs:
           npm run release
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          # First publish of a new package requires public access for provenance.
+          NPM_CONFIG_ACCESS: public
