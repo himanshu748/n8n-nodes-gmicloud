@@ -1,4 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" role="img" aria-label="GMI Cloud">
-  <path d="M7.5 17.5h9.2c2 0 3.6-1.6 3.6-3.5 0-1.8-1.4-3.3-3.2-3.5.1-2.4-1.8-4.5-4.3-4.5-1.8 0-3.3 1-4 2.5C7.4 8.4 5.2 10.2 5.2 12.6c0 2.7 2.1 4.9 4.8 4.9" stroke="#0F5F5B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M12.2 9.2v2.3M12.2 14.8v.2M10.2 12.1h4" stroke="#0F5F5B" stroke-width="1.8" stroke-linecap="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" aria-label="GMI Cloud" role="img" viewBox="0 0 24 24"><path stroke="#0F5F5B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M7.5 17.5h9.2c2 0 3.6-1.6 3.6-3.5 0-1.8-1.4-3.3-3.2-3.5.1-2.4-1.8-4.5-4.3-4.5-1.8 0-3.3 1-4 2.5C7.4 8.4 5.2 10.2 5.2 12.6c0 2.7 2.1 4.9 4.8 4.9"/><path stroke="#0F5F5B" stroke-linecap="round" stroke-width="1.8" d="M12.2 9.2v2.3M12.2 14.8v.2M10.2 12.1h4"/></svg>
